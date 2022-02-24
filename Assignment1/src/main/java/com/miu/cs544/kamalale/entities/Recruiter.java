@@ -5,7 +5,7 @@ import jakarta.persistence.*;
 import java.util.List;
 
 @Entity
-public class Recruiter extends  Company{
+public class Recruiter extends Company {
 
     @Id
     @GeneratedValue
