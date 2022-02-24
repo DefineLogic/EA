@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.1"
+             xmlns="http://xmlns.jcp.org/xml/ns/persistence"
+             xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+             xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence http://xmlns.jcp.org/xml/ns/persistence/persistence_2_1.xsd">
+    <persistence-unit name="jobPU">
+        <class>com.miu.cs544.kamalale.entities.Job</class>
+        <class>com.miu.cs544.kamalale.entities.Interview</class>
+        <class>com.miu.cs544.kamalale.entities.TechnicalInterview</class>
+        <class>com.miu.cs544.kamalale.entities.HiringManagerInterview</class>
+        <class>com.miu.cs544.kamalale.entities.ScreeningInterview</class>
+        <class>com.miu.cs544.kamalale.entities.Application</class>
+        <class>com.miu.cs544.kamalale.entities.Client</class>
+        <class>com.miu.cs544.kamalale.entities.Company</class>
+        <class>com.miu.cs544.kamalale.entities.Job</class>
+        <class>com.miu.cs544.kamalale.entities.Recruiter</class>
+        <class>com.miu.cs544.kamalale.entities.Skill</class>
+        <properties>
+<!--            <property name="jakarta.persistence.jdbc.driver" value="com.mysql.jdbc.Driver" />-->
+            <property name="jakarta.persistence.jdbc.url" value="jdbc:mysql://localhost:3306/cs544" />
+            <property name="jakarta.persistence.jdbc.user" value="ea" />
+            <property name="jakarta.persistence.jdbc.password" value="cs544" />
+            <property name="jakarta.persistence.schema-generation.database.action" value="drop-and-create"/>
+            <property name="eclipselink.logging.level.sql" value="FINE"/>
+            <property name="eclipselink.logging.parameters" value="true"/>
+        </properties>
+    </persistence-unit>
+</persistence>
