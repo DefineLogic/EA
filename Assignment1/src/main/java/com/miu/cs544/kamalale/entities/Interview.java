@@ -25,4 +25,13 @@ public abstract class Interview {
         this.email = email;
     }
 
+    @Override
+    public String toString() {
+        return "Interview{" +
+                "id=" + id +
+                ", date=" + date +
+                ", phoneNumber=" + phoneNumber +
+                ", email='" + email + '\'' +
+                '}';
+    }
 }

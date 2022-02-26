@@ -19,4 +19,12 @@ public class HiringManagerInterview extends  Interview{
         this.teamSize = teamSize;
         this.startDate = startDate;
     }
+
+    @Override
+    public String toString() {
+        return super.toString() +"HiringManagerInterview{" +
+                "teamSize=" + teamSize +
+                ", startDate=" + startDate +
+                '}';
+    }
 }

@@ -30,9 +30,9 @@ class Main {
     private static void create() {
         System.out.println("Begin Create");
         eman.getTransaction().begin();
-        Job job1 = new Job("Software Developer I", 60000,null,null);
-        Job job2 = new Job("Software Developer II", 80000,null,null);
-        Job job3 = new Job("Senior Software Developer", 120000,null,null);
+        Job job1 = new Job("Software Developer I", 60000,null,null,null);
+        Job job2 = new Job("Software Developer II", 80000,null,null,null);
+        Job job3 = new Job("Senior Software Developer", 120000,null,null,null);
         eman.persist(job1);
         eman.persist(job2);
         eman.persist(job3);

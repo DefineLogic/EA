@@ -26,4 +26,13 @@ public class TechnicalInterview extends Interview{
         this.location = location;
         Questions = questions;
     }
+
+    @Override
+    public String toString() {
+        return super.toString() +"TechnicalInterview{" +
+                "duration=" + duration +
+                ", location=" + location +
+                ", Questions='" + Questions + '\'' +
+                '}';
+    }
 }

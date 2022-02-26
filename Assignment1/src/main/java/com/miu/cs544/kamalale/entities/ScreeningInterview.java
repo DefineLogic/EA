@@ -6,7 +6,7 @@ import jakarta.persistence.Entity;
 import java.util.Date;
 
 @Entity
-public class ScreeningInterview extends Interview{
+public class ScreeningInterview extends Interview {
 
     private String name;
     private String result;
@@ -19,5 +19,13 @@ public class ScreeningInterview extends Interview{
         super(date, phoneNumber, email);
         this.name = name;
         this.result = result;
+    }
+
+    @Override
+    public String toString() {
+        return super.toString() + "ScreeningInterview{" +
+                "name='" + name + '\'' +
+                ", result='" + result + '\'' +
+                '}';
     }
 }

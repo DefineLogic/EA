@@ -17,8 +17,18 @@ public class Recruiter extends Company {
     public Recruiter() {
     }
 
-    public Recruiter(String name, String address, List<Client> clientList) {
+    public Recruiter(String name, Address address, List<Client> clientList) {
         super(name, address);
         this.clientList = clientList;
+    }
+
+    @Override
+    public String toString() {
+        return "Recruiter{" +
+                ", name='" + name + '\'' +
+                ", address='" + address + '\'' +
+                "id=" + id +
+                ", clientList=" + clientList +
+                '}';
     }
 }

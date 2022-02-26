@@ -26,4 +26,14 @@ public class Application {
         this.date = date;
         this.resumeVersion = resumeVersion;
     }
+
+    @Override
+    public String toString() {
+        return "Application{" +
+                "id=" + id +
+                ", job=" + job +
+                ", date=" + date +
+                ", resumeVersion=" + resumeVersion +
+                '}';
+    }
 }
