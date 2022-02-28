@@ -31,7 +31,7 @@ public class Person {
         vechile.setPerson(this);
     }
 
-    public void setVechileList(Vechile vechile) {
+    public void removeFromVechileList(Vechile vechile) {
         vechileList.remove(vechile);
         vechile.setPerson(null);
     }
