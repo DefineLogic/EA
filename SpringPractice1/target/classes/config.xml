@@ -1,12 +1,28 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<beans xmlns="http://www.springframework.org/schema/beans"
-       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+<!--<?xml version="1.0" encoding="UTF-8"?>-->
+<!--<beans xmlns="http://www.springframework.org/schema/beans"-->
+<!--       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"-->
+<!--       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd"-->
+<!--&gt;-->
+<!--    <beans profile="development,default">-->
+<!--        <bean id="databaseConnection" class="edu.miu.cs544.kamal.service.DatabaseConnection">-->
+<!--            <property name="dbUrl" value="development_db_Url"></property>-->
+<!--        </bean>-->
+<!--        <bean id="loggingAspect" class="edu.miu.cs544.kamal.aspect.SpringAopLogging"></bean>-->
+<!--        <bean id="databaseConnectionProxy" class="org.springframework.aop.framework.ProxyFactoryBean">-->
+<!--            <property name="target" ref="databaseConnection"></property>-->
+<!--            <property name="interceptorNames">-->
+<!--                <list>-->
+<!--                    <value>-->
+<!--                        loggingAspect-->
+<!--                    </value>-->
+<!--                </list>-->
+<!--            </property>-->
+<!--        </bean>-->
+<!--    </beans>-->
+<!--    <beans profile="production">-->
+<!--        <bean id="databaseConnection" class="edu.miu.cs544.kamal.service.DatabaseConnection">-->
+<!--            <property name="dbUrl" value="production_db_Url"></property>-->
+<!--        </bean>-->
 
-    <import resource="config2.xml"></import>
-    <import resource="truckConfig.xml"></import>
-    <bean id="game" class="edu.miu.ea.kamal.dayOne.Game">
-        <constructor-arg ref="truck"></constructor-arg>
-    </bean>
-
-</beans>
+<!--    </beans>-->
+<!--</beans>-->
