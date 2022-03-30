@@ -3,7 +3,6 @@ package com.miu.cs544.kamalale.entities;
 import jakarta.persistence.Embeddable;
 import jakarta.persistence.Entity;
 
-@Entity
 @Embeddable
 public class Address {
 

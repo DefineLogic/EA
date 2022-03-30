@@ -1,0 +1,23 @@
+{
+  "id": 9,
+  "job": {
+    "id": 10,
+    "title": "Engineering Analyst",
+    "salary": 90000.0,
+    "applicationId": 0,
+    "skillList": [],
+    "company": {
+      "id": 11,
+      "name": "Morgan Stanley",
+      "address": {
+        "streetNo": "RMZ EcoWorld",
+        "city": "Bangalore",
+        "state": "Karnataka",
+        "zipCode": "560103"
+      }
+    },
+    "interviewList": []
+  },
+  "date": "2022-03-19T23:59:48.401+00:00",
+  "resumeVersion": 1.0
+}

@@ -103,8 +103,8 @@ public class Main2 {
 
         Recruiter recruiter1 = new Recruiter("Synechron",new Address("Global Technology Park",
                 "Bangalore", "Karnataka","560103"),clientList);
-        eman.persist(recruiter1);
-        eman.persist(client3);
+//        eman.persist(recruiter1);
+//        eman.persist(client3);
 
         //Interviews
         ScreeningInterview si = new ScreeningInterview(new Date(122,01,27), 6412330002L, "kale@miu.com",
